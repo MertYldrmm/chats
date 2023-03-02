@@ -5,4 +5,7 @@ export default defineNuxtConfig({
             script: [{ src: 'https://accounts.google.com/gsi/client' }],
         },
     },
+    css: [
+        '@/assets/css/main.css',
+    ]
 })
